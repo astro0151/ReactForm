@@ -1,0 +1,57 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    background-color: aliceblue;
+}
+.container{
+    display: grid;
+    /* align-items: center; */
+    justify-content: center;
+    
+}
+.nav-bar{
+    height: 50px;
+    background-color: rgb(58, 53, 53);
+}
+.form{
+    display: grid;
+    margin-top: 30px;
+    justify-content: center;
+      /* width: 220px; */
+    /* border: 1px solid blue; */
+    padding: 20px;
+    background-color: gainsboro;
+    /* height: 500px; */
+    border-radius: 2px;
+}
+label{
+    margin: 10px 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(61, 60, 60);
+    background-color: gainsboro;
+    /* border-bottom: 1px solid blue; */
+}
+input{
+width: 200px;
+height: 30px;
+border: none;
+background-color: beige;
+/* color: aliceblue; */
+border-radius: 3px;
+padding-left: 10px;
+border-bottom: 1px solid rgb(105, 105, 243);
+}
+#btn{
+    margin-top: 20px;
+    height: 35px;
+    width: 200px;
+    font-size: medium;
+    font-weight: 600;
+    background-color: rgb(105, 105, 243);
+    /* background-color: rgb(91, 133, 91); */
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+    border-radius: 3px;
+}
